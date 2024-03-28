@@ -1,6 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
+import { Layout } from './components/layout/Layout'
+import Homepage from './pages/hompage/Homepage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,15 +10,9 @@ function App() {
   return (
     <>
       <div>
-        
+       <Homepage/> 
       </div>
-      <h1>Irrrissss</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        
-      </div>
+     
       
     </>
   )

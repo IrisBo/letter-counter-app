@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function CharsCounter() {
+export function CharsCounter() {
   return (
-    <div>CharsCounter</div>
-  )
+    <div>
+      <input placeholder="write something"></input>
+    </div>
+  );
 }
